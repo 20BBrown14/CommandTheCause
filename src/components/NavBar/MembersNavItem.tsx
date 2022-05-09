@@ -22,6 +22,11 @@ function MembersNavItem({
     setAnchorEl(null);
   }
 
+  const handleItemClick = (href: string) => {
+    handleClose();
+    router.push(href);
+  }
+
   return (
     <Grid item={true}>
       <IconButton
@@ -50,12 +55,12 @@ function MembersNavItem({
         open={Boolean(anchorEl)}
         onClose={handleClose}
       >
-        <MenuItem onClick={() => router.push(LEADERBOARD_HREF) }>
+        <MenuItem onClick={() => handleItemClick(LEADERBOARD_HREF) }>
           <Typography>
             Leaderboard
           </Typography>
         </MenuItem>
-        <MenuItem onClick={() => router.push(GAME_REPORTING_HREF) }>
+        <MenuItem onClick={() => handleItemClick(GAME_REPORTING_HREF) }>
           <Typography>
             Game Reporting
           </Typography>

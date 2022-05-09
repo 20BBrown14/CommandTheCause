@@ -6,7 +6,7 @@ import type { NextRouter } from 'next/router';
 
 const useStyles = makeStyles({
   appBar: {
-    background: 'black',
+    background: 'white',
     color: 'var(--CtC_Purple)',
     alignItems: 'center',
   }
