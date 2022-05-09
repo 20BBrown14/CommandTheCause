@@ -1,0 +1,1 @@
+export {BASE_DISCORD_URL} from './baseDiscordURL';

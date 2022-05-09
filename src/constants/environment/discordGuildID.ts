@@ -1,0 +1,1 @@
+export const DISCORD_GUILD_ID = process.env.NEXT_PUBLIC_DISCORD_GUILD_ID;

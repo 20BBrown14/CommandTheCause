@@ -1,0 +1,1 @@
+export const DISCORD_BEARER_TOKEN = process.env.DISCORD_BEARER_TOKEN;
