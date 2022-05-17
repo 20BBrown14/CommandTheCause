@@ -13,11 +13,14 @@
     "@emotion/styled": "^11.8.1",
     "@mui/material": "^5.6.4",
     "@mui/styles": "^5.6.2",
+    "formik": "^2.2.9",
     "next": "12.1.6",
     "next-connect": "^0.12.2",
     "react": "18.1.0",
     "react-dom": "18.1.0",
-    "react-query": "^3.38.1"
+    "react-query": "^3.38.1",
+    "use-debounce": "^8.0.1",
+    "yup": "^0.32.11"
   },
   "devDependencies": {
     "@types/node": "17.0.31",
