@@ -42,7 +42,6 @@ const getGuild = async (guildID: string | string[]) => {
 
 const getGuildMemberList = async (guildID: string | string[], limit: string | string[] = '1000', after: string | string[] | undefined) => {
   const queryValues = getQueryValues(limit, after)
-  console.log('queryValues', queryValues)
   try {
     const guildMemberList = await fetchWrapper<GuildMember[], undefined>({
       method: 'GET',
@@ -59,7 +58,6 @@ const getGuildMemberList = async (guildID: string | string[], limit: string | st
 }
 
 const getRequestHandler = async (req: NextApiRequest, res: NextApiResponse) => {
-  console.log('req.query', req.query.limit);
   const {
     id: guildID,
     limit,

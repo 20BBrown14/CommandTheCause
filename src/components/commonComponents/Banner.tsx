@@ -9,6 +9,7 @@ const useStyles = makeStyles({
     color: 'white',
     height: '20%',
     textAlign: 'center',
+    marginBottom: '2rem'
   },
   text: {
     position: 'absolute',
@@ -26,7 +27,7 @@ const useStyles = makeStyles({
     display: 'inline',
   },
   lastWord: {
-    color: 'var(--CtC_Purple)',
+    color: 'var(--color-sweetFlag)',
   }
 })
 
